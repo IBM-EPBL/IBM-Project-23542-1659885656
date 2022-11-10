@@ -1,0 +1,12 @@
+body{
+    background: url(./bgl.jpg);
+}
+.full-page
+{
+    height: 100%;
+    width: 100%;
+    position: absolute ;
+    background: url(bgl.jpg);
+    background-size:auto;
+    background-position: center;
+}

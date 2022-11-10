@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            position: relative;
+        }
+        h1{
+            text-align: center;
+        }
+        .login-form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+        }
+
+        .main-heading {
+            color: orangered;
+            padding-bottom: 20px;
+        }
+
+        .login-form>input {
+            padding: 15px 20px;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 35px;
+            background: orangered;
+            border: none;
+            color: white;
+        }
+        .action-wrapper{
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+     <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <form class="login-form">
+       
+        <h1 class="main-heading">Login Form</h1>
+        <input type="text" placeholder="user name" />
+        <input type="password" placeholder="password" />
+        <div class="action-wrapper"><button>LOGIN</button></div>
+        <p class="asking">Not Registered?<a href="/register.html" style="color: orangered;">Register</a></p>
+    </form>
+</body>
+
+</html>
